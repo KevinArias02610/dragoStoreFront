@@ -22,7 +22,7 @@ const ELEMENT_DATA: Users[] = [
 })
 export class UsersComponent implements OnInit {
 
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol', 'actions'];
   dataSource = ELEMENT_DATA;
   
   constructor() { }

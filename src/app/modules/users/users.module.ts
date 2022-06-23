@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { UsersRoutingModule } from './users-routing.module';
 import { UsersComponent } from './users/users.component';
 import {MatTableModule} from '@angular/material/table';
-
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     UsersComponent
@@ -11,7 +12,9 @@ import {MatTableModule} from '@angular/material/table';
   imports: [
     CommonModule,
     UsersRoutingModule,
-    MatTableModule
+    MatTableModule,
+    MatButtonModule,
+    MatIconModule
   ]
 })
 export class UsersModule { }
