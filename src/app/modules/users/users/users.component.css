@@ -1,5 +1,19 @@
-table {
-    overflow: auto;
-    width: 100vh;
-  }
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+.content {
+  height: calc(100vh - 40%);
+  width: 100vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  color: lightgray;
+}
+
+table{
+  width: 100vw;
+  margin: 10%;
+}
   

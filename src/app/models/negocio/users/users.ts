@@ -1,6 +1,8 @@
 export interface Users {
-    name: string;
-    position: number;
-    weight: number;
-    symbol: string;
+    userid: number;
+    username: string;
+    stateuser: boolean;
+    phone: string;
+    mail: string;
+    roleid: number;
   }

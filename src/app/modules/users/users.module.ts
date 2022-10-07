@@ -5,9 +5,13 @@ import { UsersComponent } from './users/users.component';
 import {MatTableModule} from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { CreateUserComponent } from './components/create-user/create-user.component';
+import { UpdateUserComponent } from './components/update-user/update-user.component';
 @NgModule({
   declarations: [
-    UsersComponent
+    UsersComponent,
+    CreateUserComponent,
+    UpdateUserComponent
   ],
   imports: [
     CommonModule,

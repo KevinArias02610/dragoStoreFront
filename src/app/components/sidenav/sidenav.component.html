@@ -4,10 +4,9 @@
             menu
         </mat-icon>
         <mat-icon *ngIf="sidenav.opened">
-            close
+            menu
         </mat-icon>
     </button>
-    Responsive side navigation
 </mat-toolbar>
 
 <mat-sidenav-container>
@@ -21,7 +20,7 @@
       <mat-icon>home</mat-icon>
       <span>Inicio</span>
     </button>
-    <button (click)="closeSidenav()" [routerLink]="['users']" mat-button class="menu-button">
+    <button (click)="closeSidenav()" [routerLink]="['/negocio/users']" mat-button class="menu-button">
       <mat-icon>person</mat-icon>
       <span>Usuarios</span>
     </button>
@@ -35,8 +34,7 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <div class="content mat-elevation-z8">
-        <router-outlet></router-outlet>
-    </div>
+    <router-outlet></router-outlet>
+
   </mat-sidenav-content>
 </mat-sidenav-container>
